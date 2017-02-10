@@ -12,7 +12,7 @@
 
 
 ;; Line-Numbers
-;;(global-linum-mode 1)
+(global-linum-mode 1)
 
 ;; No Tool-Bar (GUI)
 (tool-bar-mode -1)
