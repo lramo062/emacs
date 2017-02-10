@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=eclimd
+Exec=/Users/LesterRamos/java-neon/Eclipse.app/Contents/Eclipse/eclimd -b
+StartupNotify=false
+X-GNOME-Autostart-enabled=true

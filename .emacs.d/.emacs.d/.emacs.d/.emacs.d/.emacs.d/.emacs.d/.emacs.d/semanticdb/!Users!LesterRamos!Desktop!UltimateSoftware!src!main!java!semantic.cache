@@ -1,0 +1,61 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("java.util.*" include nil nil [212 231])
+            ("Library" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [323 336]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [299 519])
+                    ("maxSub" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("arr" variable
+                               (:dereference 1
+                                :type "int")
+                                (reparse-symbol formal_parameters) [577 586]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [552 792])
+                    ("negativeSums" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("arr" variable
+                               (:dereference 1
+                                :type "int")
+                                (reparse-symbol formal_parameters) [863 872]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [832 1076]))                  
+                :type "class")
+                nil [271 1081]))          
+      :file "Library.java"
+      :pointmax 1082
+      :fsize 1081
+      :lastmodtime '(22520 15080 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("java.util.AbstractQueue" include nil nil [47 78])
+            ("java.util.Queue" include nil nil [79 102])
+            ("java.util.Stack" include nil nil [103 126])
+            ("java.util.concurrent.LinkedBlockingDeque" include nil nil [127 175]))          
+      :file "BST.java"
+      :pointmax 6247
+      :fsize 6246
+      :lastmodtime '(22516 39360 0 0)
+      :unmatched-syntax '((BRACE_BLOCK 227 . 6246) (RSHIFT 224 . 226) (IDENTIFIER 223 . 224) (SUPER 217 . 222) (QUESTION 215 . 216) (LT 214 . 215) (IDENTIFIER 204 . 214) (EXTENDS 196 . 203) (IDENTIFIER 194 . 195) (PUBLIC 177 . 183) (LT 193 . 194))))
+  :file "!Users!LesterRamos!Desktop!UltimateSoftware!src!main!java!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

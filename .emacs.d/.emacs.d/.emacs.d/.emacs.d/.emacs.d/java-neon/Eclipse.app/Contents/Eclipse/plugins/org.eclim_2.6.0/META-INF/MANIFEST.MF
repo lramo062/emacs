@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.8.0_102-b14 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-Vendor: eclim.org
+Bundle-Name: Eclim
+Bundle-SymbolicName: org.eclim; singleton:=true
+Bundle-Version: 2.6.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Localization: plugin
+Bundle-Activator: org.eclim.eclipse.EclimPlugin
+Bundle-ClassPath: ., eclim.jar, lib/commons-cli-1.2.jar, lib/commons-c
+ ollections-3.2.1.jar, lib/commons-lang-2.4.jar, lib/commons-vfs-1.0.j
+ ar, lib/gson-1.7.1.jar, lib/javassist-3.10.0.jar, lib/nailgun-0.7.1.j
+ ar, lib/scannotation-1.0.2.jar, lib/slf4j-log4j-1.5.2.jar
+Export-Package: org.apache.commons.cli, org.apache.commons.collections
+ , org.apache.commons.lang, org.apache.commons.lang.builder, org.apach
+ e.commons.logging, org.apache.commons.vfs, org.eclim, org.eclim.annot
+ ation, org.eclim.command, org.eclim.command.complete, org.eclim.comma
+ nd.filter, org.eclim.command.project, org.eclim.command.xml.validate,
+  org.eclim.eclipse, org.eclim.eclipse.core.runtime, org.eclim.eclipse
+ .jface.text, org.eclim.eclipse.jface.text.contentassist, org.eclim.ec
+ lipse.ui, org.eclim.eclipse.ui.internal, org.eclim.logging, org.eclim
+ .plugin, org.eclim.preference, org.eclim.project, org.eclim.util, org
+ .eclim.util.file, org.eclim.util.vim, org.eclipse.swt.widgets, com.go
+ ogle.gson, com.google.gson.reflect, com.google.gson.stream, com.marti
+ ansoftware.nailgun, org.scannotation
+Require-Bundle: javax.inject, org.eclipse.core.commands, org.eclipse.c
+ ore.contenttype, org.eclipse.core.filebuffers, org.eclipse.core.files
+ ystem, org.eclipse.core.resources, org.eclipse.core.runtime, org.ecli
+ pse.e4.core.contexts, org.eclipse.e4.core.di, org.eclipse.e4.core.di.
+ annotations, org.eclipse.e4.core.services, org.eclipse.e4.ui.model.wo
+ rkbench, org.eclipse.e4.ui.workbench, org.eclipse.e4.ui.workbench.swt
+ , org.eclipse.equinox.common, org.eclipse.jface, org.eclipse.jface.te
+ xt, org.eclipse.osgi.services, org.eclipse.team.core, org.eclipse.tex
+ t, org.eclipse.ui, org.eclipse.ui.ide.application, org.eclipse.ui.wor
+ kbench
+Eclipse-AutoStart: true
+

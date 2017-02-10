@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feature id="org.eclim"
+    label="%featureName"
+    version="2.6.0"
+    provider-name="%providerName">
+
+  <description>
+    %description
+  </description>
+
+  <license url="%licenseURL">
+    %license
+  </license>
+
+  <requires>
+    <import plugin="org.eclim"/>
+  </requires>
+
+  <plugin
+      id="org.eclim"
+      version="2.6.0"
+      unpack="true"/>
+
+  <plugin
+      id="org.eclim.core"
+      version="2.6.0"
+      unpack="false"/>
+
+  <plugin
+      id="org.eclim.vimplugin"
+      version="2.6.0"
+      unpack="true"/>
+
+            
+  <plugin
+      id="org.eclim.jdt"
+      version="2.6.0"
+      unpack="false"/>
+          
+</feature>

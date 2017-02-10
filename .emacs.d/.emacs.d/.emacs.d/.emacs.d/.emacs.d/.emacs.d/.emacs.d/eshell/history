@@ -1,0 +1,128 @@
+ln -s ~/instantclient_11_2/{libsqlplus.dylib,libsqlplusic.dylib} ~/lib/export PATH=~/instantclient_11_2:$PATH
+cd Desktop/Work/
+ls
+cd pos2whse/
+npm install oracledb
+node --version
+sudo npm cache clean -f
+sudo npm install -g n 
+sudo npm install -g n npm ERR!     /Users/LesterRamos/Desktop/Work/pos2whse/npm-debug.log
+sudo npm install -g n
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+node app.js
+ls
+ls -a
+cd .got
+cd .git
+ls
+rm CHERRY_PICK_HEAD 
+cd ..
+clear
+
+ls
+tree
+cd Desktop/
+ls
+cd Assignment4/
+ls
+clear
+
+tree 
+clear
+
+ls
+(print "hello")
+(print "bye-bye")
+(+ 1 2 3)
+ls
+clear
+
+sftp lramo62@ocelot.aul.fiu.edu
+sftp lramo062@ocelot.aul.fiu.edu

@@ -1,0 +1,958 @@
+((("createProduct" .
+   [0 0 0 0 0 1 0 0 0 1 0 0 0])
+  ("createNewProduct" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("admin" .
+   [1 0 0 0 0])
+  ("cents" .
+   [1 0 0 0 0])
+  ("prod" .
+   [2 0 0 0])
+  ("product" .
+   [1 0 0 0 0 0 0])
+  ("enabledFlag" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("validFrom" .
+   [1 0 0 0 0 0 0 0 0])
+  ("validTo" .
+   [1 0 0 0 0 0 0])
+  ("durationHours" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("price" .
+   [2 0 0 0 0])
+  ("currency" .
+   [0 0 0 0 0 0 0 1])
+  ("Editing" .
+   [3 0 0 0 0 0 0])
+  ("prdDescr5" .
+   [1 0 0 0 0 0 0 0 0])
+  ("prdDescr4" .
+   [1 0 0 0 0 0 0 0 0])
+  ("prdDescr3" .
+   [1 0 0 0 0 0 0 0 0])
+  ("prdDescr2" .
+   [1 0 0 0 0 0 0 0 0])
+  ("prdDescr6" .
+   [1 0 0 0 0 0 0 0 1])
+  ("prdName" .
+   [1 0 0 0 0 0 0])
+  ("prdSort" .
+   [1 0 0 0 0 0 0])
+  ("editingProduct" .
+   [4 0 1 0 0 0 0 0 2 1 1 0 0 1])
+  ("fullCruise" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("isError" .
+   [1 0 0 0 0 0 0])
+  ("myApp" .
+   [1 0 1 0 0])
+  ("loginCtrl" .
+   [1 0 0 0 0 0 0 0 0])
+  ("ngRoute" .
+   [2 0 0 0 0 0 0])
+  ("writeToCouchbase" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("router" .
+   [3 0 0 0 0 0])
+  ("routes" .
+   [1 0 0 0 0 0])
+  ("use" .
+   [2 0 0])
+  ("route" .
+   [1 0 0 0 0])
+  ("sendFile" .
+   [1 0 0 0 0 0 0 0])
+  ("all" .
+   [6 0 0])
+  ("oracledb" .
+   [2 0 0 0 0 0 0 0])
+  ("ConnectionMap" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Connection" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ConnectionsPromises" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Connections" .
+   [31 0 0 0 0 0 0 0 0 0 1])
+  ("forEach" .
+   [19 0 0 0 0 0 0])
+  ("createConnection" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("OracleDb" .
+   [3 0 0 0 0 0 0 0])
+  ("OracleDB" .
+   [5 0 0 0 0 0 0 0])
+  ("transpose" .
+   [2 0 0 0 0 0 0 0 0])
+  ("matrix" .
+   [7 0 0 0 0 0])
+  ("ac-helm" .
+   [0 0 0 0 1 0 0])
+  ("load-file" .
+   [1 0 0 0 0 0 0 0 0])
+  ("org" .
+   [1 0 0])
+  ("helm-config" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("helm-mode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("fetch-json" .
+   [0 0 0 1 0 0 0 0 0 0])
+  (":type" .
+   [1 0 0 0 0])
+  ("dfs" .
+   [2 0 0])
+  ("postorder" .
+   [2 0 0 0 0 0 0 0 0])
+  ("right" .
+   [3 0 0 0 0])
+  ("left" .
+   [6 0 0 0])
+  ("delete" .
+   [1 0 0 0 0 0])
+  ("head" .
+   [1 0 0 0])
+  ("controlDiv" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("chicagoDiv" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("chicago" .
+   [2 0 0 0 0 0 0])
+  ("wrapperChicago" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("control" .
+   [2 0 0 0 0 0 0])
+  ("centerControl" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Control" .
+   [1 0 0 0 0 0 0])
+  ("controlUI" .
+   [1 0 0 0 0 0 0 0 0])
+  ("createExample" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Geocoder" .
+   [1 0 0 0 0 0 0 0])
+  ("markerCount" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("getToLocation" .
+   [0 0 0 0 0 2 0 0 0 0 0 0 0])
+  ("getFromLocation" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("showMap" .
+   [1 0 0 0 0 0 0])
+  ("show" .
+   [1 0 0 0])
+  ("uber" .
+   [1 0 0 0])
+  ("Hides" .
+   [1 0 0 0 0])
+  ("zoom" .
+   [3 0 0 0])
+  ("setMap" .
+   [1 0 0 0 0 0])
+  ("asyncGetCurrentLocation" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Asynchronously" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("LatLng" .
+   [1 0 0 0 0 0])
+  ("myLatlng" .
+   [0 0 1 0 0 0 0 0])
+  ("getCurrentPosition" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setNavigator" .
+   [0 0 0 0 2 0 0 0 0 0 0 0])
+  ("setGeocoder" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("linkToAddress" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("linkFromAddress" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("powerline-default-theme" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("powerline" .
+   [2 0 0 0 0 0 0 0 0])
+  ("extend" .
+   [1 0 0 0 0 0])
+  ("localized_display_name" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("lyftDat" .
+   [5 0 0 0 0 0 0])
+  ("data2" .
+   [6 0 0 0 0])
+  ("estamite" .
+   [1 0 0 0 0 0 0 0])
+  ("duration" .
+   [4 0 0 0 0 0 0 0])
+  ("push" .
+   [9 0 0 0])
+  ("prices" .
+   [1 0 0 0 0 0])
+  ("finLng" .
+   [2 0 0 0 0 0])
+  ("finLat" .
+   [1 0 0 0 0 0])
+  ("startLng" .
+   [2 0 0 0 0 0 0 0])
+  ("startLat" .
+   [2 0 0 0 0 0 0 0])
+  ("hideMap" .
+   [4 0 0 0 0 0 0])
+  ("hide" .
+   [1 0 0 0])
+  ("_markers" .
+   [13 0 1 0 0 0 0 0])
+  ("geoloccontrol" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("$state" .
+   [1 0 0 0 0 0])
+  ("setCenter" .
+   [1 0 0 0 0 0 0 0 0])
+  ("markers" .
+   [4 0 0 0 0 0 0])
+  ("bounds" .
+   [7 0 0 0 0 0])
+  ("Lat" .
+   [1 0 0])
+  ("maps" .
+   [3 0 0 0])
+  ("google" .
+   [2 0 0 0 0 0])
+  ("marker" .
+   [10 0 0 0 0 0])
+  ("lng" .
+   [10 0 0])
+  ("lon" .
+   [1 0 0])
+  ("lat" .
+   [16 0 0])
+  ("center" .
+   [16 0 0 0 0 0])
+  ("position" .
+   [5 0 0 0 0 0 0 0])
+  ("addressMarker" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("rej" .
+   [1 0 0])
+  ("getMidPoint" .
+   [0 0 0 0 2 1 0 0 0 0 0])
+  ("a" .
+   [3])
+  ("map" .
+   [71 0 0])
+  ("destinationPosition" .
+   [1 0 0 0 1 1 0 0 0 0 0 1 0 0 2 0 0 0 6])
+  ("addressPosition" .
+   [4 0 0 0 0 1 0 0 2 0 3 0 0 0 3])
+  ("geometry" .
+   [2 0 0 0 0 0 0 1])
+  ("geocodeDestination" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("geocoder" .
+   [9 0 0 0 0 0 0 0])
+  ("address" .
+   [29 0 0 0 0 0 0])
+  ("destination" .
+   [11 0 0 0 0 0 0 0 0 0 0])
+  ("lyft" .
+   [4 0 0 0])
+  ("pri" .
+   [1 0 0])
+  ("a2" .
+   [2 0])
+  ("myPowerSet" .
+   [2 0 0 1 0 0 0 0 0 0])
+  ("charAt" .
+   [1 0 0 0 0 0])
+  ("s2" .
+   [1 0])
+  ("length" .
+   [9 0 1 0 0 0])
+  ("print" .
+   [5 0 0 0 0])
+  ("interleave1" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("usr_params" .
+   [0 0 0 0 1 1 0 0 0 0])
+  ("signInAdmin" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("packageCheck" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("response" .
+   [10 0 0 0 0 0 0 0])
+  ("content" .
+   [3 0 0 0 0 0 0])
+  ("val2" .
+   [2 0 0 0])
+  ("hasValidPackage" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("has" .
+   [1 0 0])
+  ("shell-command" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("interactive" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("compile" .
+   [1 0 0 0 0 0 0])
+  ("g" .
+   [3])
+  ("toStr" .
+   [0 0 1 0 0])
+  ("create" .
+   [4 0 0 0 0 0])
+  ("User" .
+   [11 0 0 0])
+  ("nameL" .
+   [1 0 0 0 0])
+  ("nameF" .
+   [3 0 0 0 0])
+  ("doc" .
+   [2 0 0])
+  ("String" .
+   [28 0 0 0 0 0])
+  ("userBillingId" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("login" .
+   [2 0 0 0 0])
+  ("JSON" .
+   [4 0 0 0])
+  ("Promise" .
+   [46 0 0 0 0 0 0])
+  ("reject" .
+   [29 0 0 0 0 0])
+  ("job" .
+   [4 0 0])
+  ("clojure.string/upper-case" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("string" .
+   [8 0 0 0 0 0])
+  ("$rootScope" .
+   [6 0 0 0 0 4 0 0 0 1])
+  ("package" .
+   [4 0 0 0 1 0 0])
+  ("pkg3" .
+   [1 0 0 0])
+  ("pkg2" .
+   [1 0 0 0])
+  ("pkg1" .
+   [2 0 0 0])
+  ("zenburn" .
+   [1 0 0 0 0 0 0])
+  ("G:2" .
+   [2 0 0])
+  ("c/get-json" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Cab" .
+   [1 0 0])
+  ("val" .
+   [8 0 0])
+  ("the" .
+   [1 0 0])
+  ("cabin" .
+   [5 0 0 0 1])
+  ("NameF" .
+   [4 0 0 0 0])
+  ("Name" .
+   [2 0 0 0])
+  ("user" .
+   [9 0 0 0])
+  ("templateUrl" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("client" .
+   [3 0 0 0 0 0])
+  ("c/defclient" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("$scope" .
+   [33 0 0 0 0 1])
+  ("scope" .
+   [1 0 0 0 0])
+  ("getPkgRef" .
+   [0 0 0 0 1 0 0 0 1])
+  ("getDoc" .
+   [4 0 0 2 0 0])
+  ("PkgRef" .
+   [2 0 0 0 0 1])
+  ("pkgId" .
+   [1 0 0 0 0])
+  ("pkg" .
+   [5 0 0])
+  ("getPackages" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("CheckBillingQuery" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("pageId" .
+   [4 0 0 0 0 0])
+  ("row" .
+   [7 0 1])
+  ("query" .
+   [59 0 0 0 0])
+  ("params" .
+   [1 0 0 0 0 0])
+  ("test" .
+   [9 0 0 0])
+  ("api" .
+   [1 0 0])
+  ("models" .
+   [1 0 0 0 0 0])
+  ("count" .
+   [11 0 0 0 0])
+  ("Document" .
+   [1 0 0 1 0 0 0 0])
+  ("toString" .
+   [5 0 0 1 0 0 0 0])
+  ("getTime" .
+   [2 0 0 0 0 0 0])
+  ("null" .
+   [17 0 0 0])
+  ("results" .
+   [62 0 0 0 0 0 0])
+  ("next" .
+   [7 0 0 0])
+  ("dmorgan" .
+   [1 0 0 0 0 0 0])
+  ("docu" .
+   [2 0 0 0])
+  ("validateUser" .
+   [1 0 0 0 0 0 1 0 6 1 0 0])
+  ("promise" .
+   [6 0 0 0 0 0 0])
+  ("GuestRef" .
+   [0 0 0 0 0 1 0 0])
+  ("password" .
+   [12 0 0 0 0 0 0 0])
+  ("parse" .
+   [6 0 0 0 0])
+  ("false" .
+   [9 1 0 0 0])
+  ("date" .
+   [13 0 0 0])
+  ("PostTime" .
+   [1 0 0 0 0 0 0 0])
+  ("Amount" .
+   [3 0 0 0 0 0])
+  ("log" .
+   [199 0 0])
+  ("console" .
+   [226 0 0 0 0 1 0])
+  ("data" .
+   [56 0 0 0])
+  ("then" .
+   [78 0 0 0])
+  ("id" .
+   [24 0])
+  ("CheckBillingActivation" .
+   [1 0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 7])
+  ("validDate" .
+   [4 0 0 0 0 0 0 0 0])
+  ("now" .
+   [3 0 0])
+  ("ValidTo" .
+   [13 0 0 0 0 0 2])
+  ("value" .
+   [27 0 0 0 0])
+  ("resolve" .
+   [57 0 0 0 0 0 0])
+  ("err" .
+   [31 0 0])
+  ("counter" .
+   [35 0 0 0 0 0 0])
+  ("bucket" .
+   [22 0 0 1 0 0])
+  ("defer" .
+   [5 0 0 0 0])
+  ("callback" .
+   [23 0 0 0 0 0 0 0])
+  ("subgate" .
+   [6 0 0 0 0 0 0])
+  ("couchbase" .
+   [1 0 0 0 0 0 0 0 0])
+  ("flymake-cursor" .
+   [0 0 0 0 0 0 0 0 0 1 0 1 0 1])
+  ("require" .
+   [16 0 0 1 0 0 0])
+  ("member" .
+   [7 0 0 0 0 0])
+  ("symbol-name" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("eclim-eclipse-dirs" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("eclim-exec" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("eclim" .
+   [4 0 0 0 0])
+  ("shell" .
+   [1 0 0 0 0])
+  ("eclimd" .
+   [1 0 0 0 0 0])
+  ("defun" .
+   [1 0 0 0 0])
+  ("p" .
+   [7])
+  ("t" .
+   [9])
+  ("S" .
+   [6])
+  ("o" .
+   [1])
+  ("pr" .
+   [1 0])
+  ("tester" .
+   [0 0 2 1 0 1])
+  ("v" .
+   [3])
+  ("void" .
+   [1 0 0 1])
+  ("static" .
+   [2 0 0 0 0 0])
+  ("public" .
+   [1 0 0 0 0 0])
+  ("int" .
+   [4 0 0])
+  ("println" .
+   [11 0 0 0 1 0 1])
+  ("out" .
+   [9 0 1])
+  ("System" .
+   [14 0 2 1 0 0])
+  ("config" .
+   [6 0 0 0 0 0])
+  ("var" .
+   [5 0 0])
+  ("flymake-jslint" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("app" .
+   [14 0 0])
+  ("get" .
+   [22 0 0])
+  ("res" .
+   [156 0 0])
+  ("req" .
+   [7 0 0])
+  ("send" .
+   [6 0 0 0])
+  ("username" .
+   [13 0 0 0 0 0 0 0])
+  ("call" .
+   [1 0 0 0])
+  ("cluster" .
+   [1 0 0 0 0 0 0])
+  ("enableN1ql" .
+   [0 0 1 0 0 0 0 0 0 0])
+  ("N1qlQuery" .
+   [1 0 0 0 0 0 0 0 0])
+  ("fromString" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("$http" .
+   [2 0 0 0 0])
+  ("method" .
+   [1 0 0 0 0 0])
+  ("success" .
+   [1 0 0 0 0 0 0])
+  ("headers" .
+   [2 0 0 0 0 0 0])
+  ("$location" .
+   [3 0 0 0 0 0 0 0 1])
+  ("path" .
+   [8 0 0 0])
+  ("page" .
+   [17 0 0 0])
+  ("error" .
+   [3 0 0 0 0])
+  ("spinner" .
+   [1 0 0 0 0 0 0])
+  ("usrInfo" .
+   [0 0 0 0 1 0 0])
+  ("true" .
+   [5 0 0 0])
+  ("result" .
+   [11 0 0 0 0 0])
+  ("function" .
+   [0 0 1 0 0 0 0 3])
+  ("CallError" .
+   [1 0 0 0 0 0 0 0 0])
+  ("cider" .
+   [1 0 0 0 0])
+  ("smex" .
+   [1 0 0 0])
+  ("s" .
+   [7])
+  ("toggle-scroll-bar" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("exports" .
+   [3 0 0 0 0 0 0])
+  ("packages" .
+   [11 0 0 2 0 0 0 0])
+  ("client_get" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("select-keys" .
+   [0 0 0 0 0 0 2 0 0 0 0])
+  ("Package" .
+   [1 0 0 0 0 0 0])
+  ("nil" .
+   [2 0 0])
+  ("empty?" .
+   [0 0 0 1 0 0])
+  ("my-seq" .
+   [45 1 1 1 0 0])
+  ("recur" .
+   [1 0 0 0 0])
+  ("def" .
+   [1 0 0])
+  ("index" .
+   [62 0 0 0 0])
+  ("fib" .
+   [3 0 1])
+  ("getJson" .
+   [2 0 0 0 0 0 0])
+  ("Docs" .
+   [7 0 0 0])
+  ("PostingID" .
+   [1 0 0 0 0 0 0 0 0])
+  ("TransRefExt" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("TransRefInt" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("json2xsl" .
+   [0 0 0 0 0 0 0 1])
+  ("toXls" .
+   [2 0 1 0 0])
+  ("CronJob" .
+   [2 0 0 0 0 0 0])
+  ("month" .
+   [1 0 0 0 0])
+  ("day" .
+   [1 0 0])
+  ("year" .
+   [1 0 0 0])
+  ("dateString" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("getYear" .
+   [0 0 0 0 1 0 0])
+  ("email" .
+   [1 0 0 0 0])
+  ("SendMail" .
+   [0 0 0 0 1 0 0 0])
+  ("file" .
+   [1 0 0 0])
+  ("fileName" .
+   [5 0 0 1 0 1 0 0])
+  ("filePath" .
+   [1 0 0 0 0 0 0 0])
+  ("start" .
+   [1 0 0 0 0])
+  ("fsharp" .
+   [1 0 0 0 0 0])
+  ("fsharp-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("iterat" .
+   [0 0 0 0 0 1])
+  ("userID" .
+   [2 0 0 0 0 0])
+  ("shipLine" .
+   [2 0 0 0 0 0 0 0])
+  ("shipLogo" .
+   [2 0 0 0 0 0 0 1])
+  ("shipSelector" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("geting" .
+   [0 0 0 0 1 0])
+  ("stringify" .
+   [1 0 0 0 0 0 0 0 0])
+  ("ValidateUser" .
+   [0 0 0 1 1 0 0 0 0 0 0 1])
+  ("define-key" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("eclim-mode-map" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("kbd" .
+   [2 0 0])
+  ("eclim-complete" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("NameL" .
+   [2 0 0 0 0])
+  ("Valid" .
+   [1 0 0 0 0])
+  ("post" .
+   [5 0 0 0])
+  ("main" .
+   [2 0 0 0])
+  ("getAllPackage" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("m" .
+   [1])
+  ("module" .
+   [5 0 0 0 0 0])
+  ("products" .
+   [1 0 0 0 0 0 0 0])
+  ("AdminCtrl" .
+   [0 0 0 0 1 0 0 0 0])
+  ("Created" .
+   [1 0 0 0 0 0 0])
+  ("set" .
+   [33 0 0])
+  ("r" .
+   [4])
+  ("powerset" .
+   [7 0 0 0 0 0 0 0])
+  ("ArrayList" .
+   [11 0 1 0 0 0 0 0 0])
+  ("add" .
+   [16 0 0])
+  ("size" .
+   [1 0 0 0])
+  ("subset" .
+   [4 0 0 0 0 0])
+  ("substring" .
+   [7 0 0 1 0 0 0 0 0])
+  ("temp" .
+   [6 0 0 0])
+  ("fld" .
+   [2 0 0])
+  ("fldFullName" .
+   [0 0 0 0 1 0 0 1 0 0 0])
+  ("body" .
+   [4 0 0 0])
+  ("pos" .
+   [6 0 0])
+  ("latitude" .
+   [1 0 0 0 0 0 0 0])
+  ("longitude" .
+   [0 0 0 0 0 1 0 0 0])
+  ("coords" .
+   [2 0 0 0 0 0])
+  ("controller" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("addMarker" .
+   [4 0 0 0 1 0 0 0 0])
+  ("state" .
+   [1 0 0 0 0])
+  ("link" .
+   [6 0 0 0])
+  ("style" .
+   [1 0 0 0 0])
+  ("getPrice" .
+   [0 0 0 0 1 0 0 0])
+  ("options" .
+   [17 0 0 0 0 0 0])
+  ("Markers" .
+   [8 0 0 0 0 0 0])
+  ("map1" .
+   [1 0 0 0])
+  ("angular" .
+   [4 0 0 0 0 0 0])
+  ("factory" .
+   [1 0 0 0 0 0 0])
+  ("getElementById" .
+   [3 0 0 0 1 0 0 2 0 0 0 0 0 0])
+  ("fromAddress" .
+   [5 0 0 0 0 0 1 0 0 0 0])
+  ("Map" .
+   [47 0 0])
+  ("mapOptions" .
+   [2 0 0 0 0 0 1 0 0 0])
+  ("to" .
+   [1 0])
+  ("from" .
+   [9 0 0 0])
+  ("toAddress" .
+   [1 0 1 3 0 0 0 0 0])
+  ("autocompleteOptions" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("mapService" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("tag" .
+   [1 0 0])
+  ("getCurrentLocation" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Prototype" .
+   [5 0 0 0 0 2 0 0 0])
+  ("constructor" .
+   [0 0 0 0 0 1 0 0 0 0 1])
+  ("setId" .
+   [1 0 0 0 0])
+  ("setMapOptions" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("setFromAddress" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("setToAddress" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("geocode" .
+   [4 0 0 0 0 0 0])
+  ("getMap" .
+   [6 0 0 0 0 0])
+  ("values" .
+   [11 0 0 0 0 0])
+  ("Marker" .
+   [4 0 0 0 0 0])
+  ("markerService" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("mark" .
+   [2 0 0 0])
+  ("toLocation" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("fromLocation" .
+   [0 0 0 0 1 1 0 0 0 0 0 0])
+  ("coord2" .
+   [1 0 0 0 0 0])
+  ("catch" .
+   [1 0 0 0 0])
+  ("setZoom" .
+   [1 0 0 0 2 0 0])
+  ("preorder" .
+   [3 0 0 0 0 0 0 0])
+  ("root" .
+   [4 0 0 0])
+  ("Node" .
+   [6 0 0 0])
+  ("key" .
+   [4 0 1])
+  ("tree" .
+   [13 0 0 0])
+  ("min" .
+   [1 0 0])
+  ("bfs" .
+   [4 0 0])
+  ("AbstractQueue" .
+   [2 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("que" .
+   [2 0 0])
+  ("Queue" .
+   [2 0 1 0 0])
+  ("addFirst" .
+   [1 0 0 0 0 0 0 0])
+  ("poll" .
+   [1 0 0 0])
+  ("solarized" .
+   [1 0 0 0 0 0 0 0 0])
+  ("global-set-key" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("helm-find" .
+   [1 0 0 0 0 0 0 0 0])
+  ("helm-find-files" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("helm" .
+   [1 0 0 0])
+  ("webkit" .
+   [0 0 1 0 0 0])
+  ("connections" .
+   [22 0 0 0 0 0 0 0 0 0 0])
+  ("connection" .
+   [24 0 0 0 0 0 0 0 0 0])
+  ("mapConnections" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("conn" .
+   [88 0 0 0])
+  ("_DB" .
+   [12 0 0])
+  ("queryMap" .
+   [2 0 0 0 0 0 0 0])
+  ("execute" .
+   [14 0 0 0 0 0 0])
+  ("queryString" .
+   [35 0 0 0 0 0 0 0 0 0 0])
+  ("resultsMap" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("newMap" .
+   [5 0 0 0 0 0])
+  ("iter" .
+   [1 0 0 0])
+  ("connectionIter" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("query2" .
+   [2 0 0 0 0 0])
+  ("establishedConnection" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("queryAll" .
+   [3 0 0 0 0 0 0 0])
+  ("established" .
+   [3 0 0 0 0 0 0 0 0 0 2])
+  ("queryResults" .
+   [3 0 0 0 0 0 1 0 1 0 0 0])
+  ("fidelio" .
+   [1 0 0 0 1 0 0])
+  ("rainbow-delimiters" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 0])
+  ("prog-mode-hook" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("rainbow-delimiters-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Manager" .
+   [2 0 0 0 0 0 0])
+  ("createConnections" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("props" .
+   [12 0 0 0 0])
+  ("queryAllMaps" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("let" .
+   [2 0 0])
+  ("getConnection" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("connectString" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Promsie" .
+   [1 0 0 0 0 0 0])
+  ("bucketName" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("queries" .
+   [3 0 0 0 0 0 0])
+  ("queryString2" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("isEmpty" .
+   [4 0 0 0 0 0 0])
+  ("uInput" .
+   [3 0 0 0 0 2])
+  ("agree" .
+   [1 0 0 0 0])
+  ("is" .
+   [1 0])
+  ("resdob" .
+   [1 0 0 0 0 0])
+  ("fldDOB" .
+   [1 0 0 0 0 0])
+  ("Matrix" .
+   [2 0 0 0 0 0])
+  ("in" .
+   [2 0])
+  ("printf" .
+   [6 0 0 0 0 1])
+  ("dijkstra" .
+   [0 0 0 0 0 0 0 2])
+  ("Initialize" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("initialize" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("arr" .
+   [7 0 0])
+  ("math" .
+   [2 0 0 0])
+  ("createGraph" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("col" .
+   [7 0 0])
+  ("INT_MAX" .
+   [1 0 0 0 0 0 0])
+  ("graph" .
+   [3 0 0 0 0])
+  ("graph2" .
+   [1 0 0 0 0 0])
+  ("uInputData" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("pur" .
+   [2 0 0])
+  ("amount" .
+   [1 0 0 0 0 0])
+  ("pay" .
+   [2 0 0])
+  ("payamt" .
+   [2 0 0 0 0 0])
+  ("payment" .
+   [1 0 0 0 0 0 0])
+  ("cp" .
+   [1 0])
+  ("~/dotfiles/i3/i3blocks" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("~/.config/i3/i3blocks" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])))

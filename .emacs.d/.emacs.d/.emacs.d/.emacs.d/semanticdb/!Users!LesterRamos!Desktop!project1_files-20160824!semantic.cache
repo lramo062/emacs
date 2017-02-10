@@ -1,0 +1,76 @@
+;; Object project1_files-20160824/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "project1_files-20160824/"
+  :tables
+  (list
+    (semanticdb-table "Cache.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("Cache" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("myCache" variable
+                       (:dereference 1
+                        :typemodifiers ("private")
+                        :type "CacheEntry")
+                        (reparse-symbol class_member_declaration) [25 54])
+                    ("cachesize" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [71 93])
+                    ("numhits" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [134 154])
+                    ("nummisses" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [189 211])
+                    ("Cache" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("numblocks" variable (:type "int") (reparse-symbol formal_parameters) [260 273]))                          )
+                        (reparse-symbol class_member_declaration) [247 494])
+                    ("log2" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("value" variable (:type "int") (reparse-symbol formal_parameters) [522 531]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [499 606])
+                    ("decToBin32" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("address" variable (:type "int") (reparse-symbol formal_parameters) [787 798]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [761 1597])
+                    ("cache" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("address" variable (:type "int") (reparse-symbol formal_parameters) [2314 2325]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [2292 2474])
+                    ("display" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2517 3058])
+                    ("hitRate" function
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [3065 3152])
+                    ("checkCache" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("address" variable (:type "int") (reparse-symbol formal_parameters) [3205 3216]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3182 3363]))                  
+                :type "class")
+                nil [1 3370]))          
+      :file "Cache.java"
+      :pointmax 3371
+      :fsize 3370
+      :lastmodtime '(21983 39010 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!LesterRamos!Desktop!project1_files-20160824!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

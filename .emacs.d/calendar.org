@@ -1,0 +1,62 @@
+* [ORG] Assignment 3
+  :PROPERTIES:
+  :LINK: [[https://www.google.com/calendar/event?eid=YjJpY2tnbHV0M2Vmcjg0NmtoczVybmkxZzggbHJhbW8wNzI5QG0][Go to gcal web page]]
+  :ID: b2ickglut3efr846khs5rni1g8
+  :END:
+
+  <2016-10-10 Mon>
+
+  DEADLINE: <2016-10-10 Mon>
+* Comp-Org Test 2
+  :PROPERTIES:
+  :LINK: [[https://www.google.com/calendar/event?eid=NjJrMHEwNGRhbWxidHYyazVqcGZpaGE2b28gbHJhbW8wNzI5QG0][Go to gcal web page]]
+  :ID: 62k0q04damlbtv2k5jpfiha6oo
+  :END:
+
+  <2016-10-12 Wed>
+
+  DEADLINE: <2016-10-12 Wed>
+  <2016-10-12 >
+
+  DEADLINE: <2016-10-12 Wed>
+* [DB] Assignment 3
+  :PROPERTIES:
+  :LINK: [[https://www.google.com/calendar/event?eid=YmpxcGxybWNxcjh0Y3EwYnJxY2hmYjFtazAgbHJhbW8wNzI5QG0][Go to gcal web page]]
+  :ID: bjqplrmcqr8tcq0brqchfb1mk0
+  :END:
+
+  <2016-10-13 Thu>
+
+  DEADLINE: <2016-10-13 Thu>
+* Database Test
+  :PROPERTIES:
+  :LINK: [[https://www.google.com/calendar/event?eid=a3V1MDMwOThjZTcwOGIwMTc0NWdiMDBiN2sgbHJhbW8wNzI5QG0][Go to gcal web page]]
+  :ID: kuu03098ce708b01745gb00b7k
+  :END:
+
+  <2016-10-13 Thu>
+
+  DEADLINE: <2016-10-13 Thu>
+* Switch Contactxs
+  :PROPERTIES:
+  :LINK: [[https://www.google.com/calendar/event?eid=NzVobThwMWk2bGozMmI5bWNrcWppYjlrY2xqNjJiOXA3NWhqaWJiMzYwbzM2ZDFpNjhwNjZkcGg2Z18yMDE2MTEwMSBscmFtbzA3MjlAbQ][Go to gcal web page]]
+  :ID: 75hm8p1i6lj32b9mckqjib9kclj62b9p75hjibb360o36d1i68p66dph6g_20161101
+  :END:
+
+  <2016-11-01 Tue>
+* Comp-Org Test 3
+  :PROPERTIES:
+  :LINK: [[https://www.google.com/calendar/event?eid=NjluOWJvcTYzNzNoN2Y0NmswaGU2MDl2aWcgbHJhbW8wNzI5QG0][Go to gcal web page]]
+  :ID: 69n9boq6373h7f46k0he609vig
+  :END:
+
+  <2016-11-07 Mon>
+
+  DEADLINE: <2016-11-07 Mon>
+* Switch Contacts
+  :PROPERTIES:
+  :LINK: [[https://www.google.com/calendar/event?eid=NzVobThwMWk2bGozMmI5bWNrcWppYjlrY2xqNjJiOXA3NWhqaWJiMzYwbzM2ZDFpNjhwNjZkcGg2Z18yMDE2MTIwMSBscmFtbzA3MjlAbQ][Go to gcal web page]]
+  :ID: 75hm8p1i6lj32b9mckqjib9kclj62b9p75hjibb360o36d1i68p66dph6g_20161201
+  :END:
+
+  <2016-12-03 Sat>

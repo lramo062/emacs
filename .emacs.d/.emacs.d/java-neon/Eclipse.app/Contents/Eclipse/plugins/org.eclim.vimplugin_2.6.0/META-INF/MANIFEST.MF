@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.8.0_102-b14 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-Vendor: eclim.org
+Bundle-SymbolicName: org.eclim.vimplugin; singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Version: 2.6.0
+Bundle-Localization: plugin
+Bundle-Activator: org.vimplugin.VimPlugin
+Bundle-ClassPath: ., eclim.vimplugin.jar
+Require-Bundle: org.apache.ant,org.eclim,org.eclipse.core.resources,or
+ g.eclipse.core.runtime,org.eclipse.jface.text,org.eclipse.ui,org.ecli
+ pse.ui.editors,org.eclipse.ui.ide,org.eclipse.ui.workbench.texteditor
+Export-Package: org.vimplugin,org.vimplugin.actions,org.vimplugin.edit
+ ors,org.vimplugin.popup.actions,org.vimplugin.preferences,org.vimplug
+ in.utils,org.vimplugin.views
+Eclipse-AutoStart: true
+

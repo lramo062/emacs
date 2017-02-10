@@ -1,0 +1,115 @@
+;; -*- coding: utf-8-unix -*-
+;; Automatically written history of CIDER REPL session
+;; Edit at your own risk
+
+("(clj/quit)" "(quit)" "exit" "quit" ":cljs/quit" "(browser-repl)" ":cljs/quit" "(cljs/quit)" "(quit)" "(:cljs/quit)" "(browser-repl)" "(run)" " " "(browser-repl)" "(run)" "(println \"hello there\")" "(require 'figwheel-sidecar.repl-api)
+             (figwheel-sidecar.repl-api/start-figwheel!) ; idempotent
+             (figwheel-sidecar.repl-api/cljs-repl)" "(println \"hello\")" "  (js/alert \"hello\")" " (js/alert \"hello\")" "(js/alert \"hello\")" "(defonce app-state (atom {:text \"Hello world!\"}))" "(js/String.toUpperCase \"helo\")" "(js/toUpperCase \"hello\")
+" "(js/Math.round 34.4)" "(js/Math .round 34.4)" "(require 'figwheel-sidecar.repl-api)
+             (figwheel-sidecar.repl-api/start-figwheel!) ; idempotent
+             (figwheel-sidecar.repl-api/cljs-repl)" "(js/alert \"hello\")" "(println \"hwl\")" "(js/alert \"Hello\")" "(js/alert \"hello\")" "(future (println \"hello\") (Thread/sleep 1000) (println '(+ 5 5)))" " (future (Thread/sleep 2000) (println '(+ 5 5)))" "(future (Thread/sleep 1000) (println '(+ 5 5)))" "(future (Thread/sleep 4000)
+        (println \"I'll print after 4 seconds\"))
+(println \"I'll print immediately\")" "(macroexpand when)" "(infix (5 + 3))" "miami" "(currentPrices [])" "(currentPrices)" " (json/read-str (search 25.790654 -80.1300455 24.790654 -81.1300455))" " (search 25.790654 -80.1300455 24.790654 -81.1300455)" "(get {:prices 100} :prices)" "(hash-map {:prices 100} :prices)" "(get {:prices 100} prices)" "(get prices {:prices 100})" "(map prices {:prices \"100\"})" "(map \"prices\" {:prices \"100\"})" "(map prices {:prices \"100\"})" "(get :prices {:prices \"100\"})" "(map :prices {:prices \"100\"})" "(map :prices {:prices 100})" "(map prices {:prices 100})" "(stats [1 2 3])" "(square 3)" "(+ 1 3)" " (anotherOne (vector (range 1000000000)) (vector (range 1000000000))) " " (anotherOne [1..1000000000] [1..1000000000]) " " (anotherOne [1 2 3] [4 5 6]) " " (anotherOne [1 2 3] [4 5 6])" "(anotherOne [1 2 3] [4 5 6])" "(anotherOne [1 2 3] [4 5 6]])" "(let x (first [1  2]))" "(map vector [1 2 3] [4 5 6])" "(vector [1 2 3] [4 5 6])" "(flatten (map vector [1 2 3] [4 5 6]))" "(myInterleave [1 2 3] [4 5 6])" "(cons '4 '5)" "(myInterleave [1 2 3] [4 5 6])" "(cons '(4) '(4))" "(cons (4) (4))" "(myInterleave [1 2 3] [4 5 6])" "(cons 2 3)" "(myInterleave [1 2 3] [4 5 6])" "(cons 2 3)" "(myInterleave [1 2 3] [4 5 6])" "(conj [2 3] [5 6])" "(myInterleave [1 2 3] [4 5 6])" "(cons []  [2 3])" "(cons 1 [2 3])" "(myInterleave [1 2 3] [4 5 6])" "(map revList [[1 2] [3] [] [4 5 6]])" "(map revList [[1 2] [3] [4 5 6]]
+                            )" "(revList [[1 2] [3] [4 5 6]])" "(revList [1 2] [3] [4 5 6])" "(revList [1 2 3])" "(3 .+ 4)" "(3 +  4)" "(.+ 3 4)" "(gcd 15 20)" "(mod 14 7)" "(% 14 7)" "(list 1 2 3)" "(into (hash-map) '(12 3))" "(into hash-map '(1 2 3))" "(hash-map '(1 2 3))" "(hash-map 1 2 3)" "user> (loop [i 0]
+        (if (< i 10)
+          (do
+            (println (str \"i: \" i))
+            (let [x 25]
+              (println x))
+            (recur (inc i)))
+          (println \"Greater than 10\")))" "(loop [i 0]
+        (if (< i 10)
+          (do
+            (println (str \"i: \" i))
+            (recur (inc i)))
+          (println \"Greater than 10\")))" "(loop [i 0]
+        (if (< 10)
+          (do
+            (println (str \"i: \" i))
+            (recur (inc i)))
+          (println \"Greater than 10\")))" "(loop [i 0]
+        (if (< 10)
+          (do
+            (println (str \"i: \" i)))
+          (recur (inc i))))" "(loop [iteration 0]
+        (println  (str \"Iteration \" iteration))
+        (if (> iteration 3)
+          (println \"goodbye!\")
+          (recur (inc iteration))))" "(loop [iteration 0]
+        (println  (str \"Iteration \" iteration))
+        (if (> iteration 3)
+          (recur (inc iteration))))" "(loop [iteration 0]
+  (println (str \"Iteration \" iteration))
+  (if (> iteration 3)
+    (println \"Goodbye!\")
+    (recur (inc iteration))))" "(asym-hobbit-body-parts)" "(asyn-hobbit-body-parts)" "(def asym-hobbit-body-parts [{:name \"head\" :size 3}
+                             {:name \"left-eye\" :size 1}
+                             {:name \"left-ear\" :size 1}
+                             {:name \"mouth\" :size 1}
+                             {:name \"nose\" :size 1}
+                             {:name \"neck\" :size 2}
+                             {:name \"left-shoulder\" :size 3}
+                             {:name \"left-upper-arm\" :size 3}
+                             {:name \"chest\" :size 10}
+                             {:name \"back\" :size 10}
+                             {:name \"left-forearm\" :size 3}
+                             {:name \"abdomen\" :size 6}
+                             {:name \"left-kidney\" :size 1}
+                             {:name \"left-hand\" :size 2}
+                             {:name \"left-knee\" :size 2}
+                             {:name \"left-thigh\" :size 4}
+                             {:name \"left-lower-leg\" :size 3}
+                             {:name \"left-achilles\" :size 1}
+                             {:name \"left-foot\" :size 2}])" "(inc3 2)" "(inc3 3)" "(def inc3
+        (inc-maker 3))" "(def inc3
+        inc-maker 3)" "(defn inc-maker
+        [in-by]
+        #(+ % in-by))" "(#(* % 3) 43424)" "(#(* % 3) 12)" "( * % 3) 4" "(my-special-multiplier 21)" "(my-special-multiplier 2000000000000000223434234234234234234234234242341234123412341234231441242314)" "(my-special-multiplier 20000000000000002234342342342342342342342342)" "(my-special-multiplier 2000000000000000)" "(def my-special-multiplier (fn [x] (* x 3)))" "(head [\"one\" \"two\" \"three\"])" "(defn head
+        [[x & xs]]
+        x)" "(defn codger-communication
+  [whippersnapper]
+  (str \"Get off my lawn, \" whippersnapper \"!!!\"))
+
+(defn codger
+➊   [& whippersnappers]
+  (map codger-communication whippersnappers))
+
+(codger \"Billy\" \"Anne-Marie\" \"The Incredible Bulk\")
+; => (\"Get off my lawn, Billy!!!\"
+      \"Get off my lawn, Anne-Marie!!!\"
+      \"Get off my lawn, The Incredible Bulk!!!\")" "(x-chop \"Lester Ramos\" \"Backhand\")" "(defn x-chop
+  \"Describe the kind of chop you're inflicting on someone\"
+  ([name chop-type]
+     (str \"I \" chop-type \" chop \" name \"! Take that!\"))
+  ([name]
+     (x-chop name \"karate\")))" "(multi-arity '(1 2))" "(multi-arity 1)" "(defn multi-arity
+  ;; 3-arity arguments and body
+  ([first-arg second-arg third-arg]
+     (first-arg second-arg third-arg))
+  ;; 2-arity arguments and body
+  ([first-arg second-arg]
+     (first-arg second-arg))
+  ;; 1-arity arguments and body
+  ([first-arg]
+     (first-arg)))" "(defn multi-arity
+  ;; 3-arity arguments and body
+  ([first-arg second-arg third-arg]
+     (do-things first-arg second-arg third-arg))
+  ;; 2-arity arguments and body
+  ([first-arg second-arg]
+     (do-things first-arg second-arg))
+  ;; 1-arity arguments and body
+  ([first-arg]
+     (do-things first-arg)))" "(def multi-arity
+        ;; 3-arity function call
+        ([first second third]
+         (first second third))
+        ([first second]
+         (first second))
+        ([first]
+         (first)))" "(def multi-arity )" "(funny true)" "(defn funny [hi]
+        (if hi
+          \"ok\"
+          \"no\"))" "(require '[clojure.core.match :refer [match]])" "(require [org.clojure/core.match \"0.3.0-alpha4\"])" "(require [core.match :refer-macros [match]])" "(require [clojure.core.match :refer-macros [match]])" "(require [cljs.core.match :refer-macros [match]])" "(require [cljs.core.match :refer-macros [match]]))" "(require 'clojure.core.match)" "(require 'core.match)" "(clojure.core.match/match [1] 1 (print \"hello\"))" "(Clojure.core.match/match [1] 1 (print \"hello\"))" "(core.match/match [1] 1 (print \"hello\"))" "(match [[1 2 3]]
+                       [1 2 3] (print \"hello\"))" "(core.match (match [[1 2 3]]
+                         [1 2 3] (print \"hello\")))" "core.match" "clojure.match" "(transpose [[1 2] [3 4] [5 6]])" "(cons 1 [2 3])" "(map first [[1 2 3] [4 5 6]])" "(transpose [[1 2] [3 4] [5 6]])" "(rest [[1 2 3] [4 5 6]])" "(first [[1 2 3] [4 5 6]])" "(transpose [[1 2] [3 4] [5 6]])" "(first [1 2 3])" "transpose [[1 2 3] [4 5 6]]" "(map first [1 2 3])" "(map println [1 2 3])" "(map first [1 2 3])" "(map (first [1 2 3 4]))" "(map first [1 2 3 4])" "(let [h (first [1 2 3])] h) " "(let [h (first [1 2 3])])" "(let [h (first matrix)])" "(let h (first [1 2 3 4]))" "(empty? [])" "(isEmpty [])" "(isempty [])" "(empty [])" "(first [1 2 3 4])" "(first (1 2 3 4))" "(frist (1 2 3 4))" "(head (1 2 3 4 ))" "(+ 6 0)" "(take 5 (list 1..6))" "(take 5 1..5)" "(list 1 2 3)" "(list a b c)" "q" "(map inc )" "(map inc [])" "(map inc [1 2 3 4])" "(map inc [1 2 3 4 5])" "(-main)")

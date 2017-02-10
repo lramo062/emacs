@@ -1,0 +1,46 @@
+;; Object java/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "java/"
+  :tables
+  (list
+    (semanticdb-table "Response.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("Response" type
+               (:typemodifiers ("public")
+                :type "class")
+                nil [39 65]))          
+      :file "Response.java"
+      :pointmax 66
+      :fsize 65
+      :lastmodtime '(22466 31009 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "App.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("com.couchbase.client.java.*" include nil nil [1 36])
+            ("com.couchbase.client.java.document.*" include nil nil [37 81])
+            ("com.couchbase.client.java.document.json.*" include nil nil [82 131])
+            ("com.couchbase.client.java.query.*" include nil nil [132 173])
+            ("App" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [223 236]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [199 427]))                  
+                :type "class")
+                nil [175 591]))          
+      :file "App.java"
+      :pointmax 592
+      :fsize 591
+      :lastmodtime '(22466 31453 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!LesterRamos!Desktop!myCouch!src!main!java!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
