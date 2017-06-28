@@ -43,6 +43,8 @@
     
     epl
 
+    elpy
+
     flycheck
     
     flymake-cursor
@@ -87,6 +89,8 @@
 
     org-gcal
 
+    ox-gfm
+    
     pkg-info
 
     popup
@@ -133,6 +137,9 @@
 
 ;; Require's
 
+(eval-after-load "org"
+  '(require 'ox-gfm nil t))
+
 ;; ECLIM
 (require 'eclim)
 (global-eclim-mode)
@@ -176,8 +183,13 @@
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
 
-(setq sml/theme 'respectful)
-(setq sml/no-confirm-load-theme t)
+;; case-sensitive auto comlpetion
+(setq company-dabbrev-downcase nil)
+
+;; (setq sml/no-confirm-load-theme t)
+;; (sml/setup)
+;; (setq sml/theme 'respectful)
+
 ;;(sml/setup)
 
 

@@ -158,3 +158,7 @@
 ;; Javascript Lint
 (require 'flymake-jshint)
 (add-hook 'js-mode-hook 'flymake-jshint-load)
+
+;;---------------------------------------------------------
+;; Python Mode
+(elpy-enable)

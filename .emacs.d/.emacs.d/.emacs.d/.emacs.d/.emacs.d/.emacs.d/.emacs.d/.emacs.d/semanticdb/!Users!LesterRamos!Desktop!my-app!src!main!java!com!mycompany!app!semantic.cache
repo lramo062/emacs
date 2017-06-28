@@ -1,0 +1,31 @@
+;; Object app/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "app/"
+  :tables
+  (list
+    (semanticdb-table "App.java"
+      :major-mode 'jdee-mode
+      :tags 
+        '( ("com.mycompany.app" package nil nil [1 27])
+            ("App" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [133 146]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [108 205]))                  
+                :type "class")
+                nil [84 207]))          
+      :file "App.java"
+      :pointmax 208
+      :fsize 207
+      :lastmodtime '(22453 58676 0 0)
+      :unmatched-syntax '((MULT 54 . 55) (DOT 53 . 54) (IDENTIFIER 48 . 53) (DOT 47 . 48) (IMPORT 28 . 34) (STATIC 35 . 41) (IDENTIFIER 42 . 47))))
+  :file "!Users!LesterRamos!Desktop!my-app!src!main!java!com!mycompany!app!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
