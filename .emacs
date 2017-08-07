@@ -29,6 +29,7 @@
 (rainbow-delimiters-mode)
 
 ;; Color-Theme
+;; run M-x fringe-mode to remove fringes from themes
 (if window-system
     (load-theme 'sourcerer t)
   (load-theme 'wombat t))
