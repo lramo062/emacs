@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.8.0_102-b14 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-Vendor: eclim.org
+Bundle-SymbolicName: org.eclim.core; singleton:=true
+Bundle-Version: 2.6.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Localization: plugin
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.eclim.plugin.core.CorePlugin
+Bundle-ClassPath: ., eclim.core.jar, lib/asm-2.2.3.jar, lib/jericho-ht
+ ml-3.0.jar, lib/joda-time-1.6.jar, lib/secondstring-20060615.jar
+Export-Package: org.eclim.plugin.core.command, org.eclim.plugin.core.c
+ ommand.complete, org.eclim.plugin.core.command.filter, org.eclim.plug
+ in.core.command.refactoring, org.eclim.plugin.core.command.xml, org.e
+ clim.plugin.core.preference, org.eclim.plugin.core.project, org.eclim
+ .plugin.core.util, org.objectweb.asm, net.htmlparser.jericho
+Require-Bundle: org.eclim, org.eclipse.core.filebuffers, org.eclipse.c
+ ore.filesystem, org.eclipse.core.jobs, org.eclipse.core.resources, or
+ g.eclipse.core.runtime, org.eclipse.equinox.preferences, org.eclipse.
+ equinox.registry, org.eclipse.jface.text, org.eclipse.ltk.core.refact
+ oring, org.eclipse.team.core, org.eclipse.text, org.eclipse.ui, org.e
+ clipse.ui.ide, org.eclipse.debug.core, org.eclipse.debug.ui
+

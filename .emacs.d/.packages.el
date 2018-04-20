@@ -7,112 +7,45 @@
    '("melpa" . "http://melpa.org/packages/") t)
   )
 
-;; Package-Summary 
+;; Package-Summary
+
 (defvar lester-packages
-  '(alert
-
-    ac-helm
-    
-    async 
-
-    auto-complete
-
-    calfw
-
-    calfw-gcal
-
-    cider
-    
-    clojure-mode 
-
-    clojure-mode-extra-font-locking
-    
-    company
-    
-    company-irony
-
-    csharp-mode
-
-    cuda-mode
-    
-    dash
-
-    deferred
-
-    eclim
-    
-    epl
-
-    flycheck
-    
-    flymake-cursor
-    
-    flymake-jshint
-
-    fsharp-mode
-    
-    gntp
-
-    google-maps
-
-    gradle-mode
-    
-    grandshell-theme
-
-    helm
-
-    helm-core
-
-    helm-dash
-    
-    helm-spotify
-    
-    irony
-
-    java-snippets
-
-    js-comint
-    
-    js2-mode
-
-    log4e
-
-    magit
-
-    material-theme
-    
-    omnisharp
-
-    org
-
-    org-gcal
-
-    pkg-info
-
-    popup
-    
-    rainbow-delimiters
-
-    rainbow-mode
-    
-    request
-
-    request-deferred
-
-    s
-
-    seq
-    
-    smex
-
-    sublime-themes
-    
-    undo-tree
-
-    yasnippet
-
-    ycm) "Default packages")
-
+  '(abyss-theme ac-helm afternoon-theme ahungry-theme ample-theme atom-dark-theme
+								atom-one-dark-theme badger-theme badwolf-theme base16-theme
+								boron-theme bubbleberry-theme calfw calfw-gcal
+								cherry-blossom-theme cider clojure-mode-extra-font-locking
+								clojure-mode color-theme-modern color-theme-sanityinc-solarized
+								color-theme-sanityinc-tomorrow color-theme-solarized color-theme
+								company-emacs-eclim company-irony creamsody-theme cuda-mode
+								cyberpunk-theme dakrone-theme dante darcula-theme darktooth-theme
+								dockerfile-mode doom-themes dracula-theme eclim elpy emacsql-psql
+								emacsql emojify-logos epc ctable concurrent exec-path-from-shell
+								finalize find-file-in-project flatland-theme flatui-dark-theme
+								flatui-theme flymake-cursor flymake-jshint flymake-json
+								flymake-easy fringe-helper fsharp-mode company-quickhelp
+								gandalf-theme go-mode google-maps gotham-theme goto-chg
+								gradle-mode grandshell-theme graphql-mode groovy-imports
+								groovy-mode gruvbox-theme hamburg-theme helm-dash helm-spotify
+								helm helm-core heroku-theme hide-comnt highlight-indentation
+								imenu-anywhere intero haskell-mode irony ivy java-snippets
+								js-comint json-mode json-reformat json-snatcher kaolin-themes
+								autothemer lcr leuven-theme lush-theme magit-filenotify
+								markdown-mode material-theme meghanada company moe-theme
+								monokai-theme multi mustang-theme neotree nimbus-theme
+								nord-theme obsidian-theme omnisharp f csharp-mode auto-complete
+								org-gcal org ox-gfm pcache pg popup pos-tip projectile
+								purple-haze-theme pyvenv queue rainbow-delimiters rainbow-mode
+								rebecca-theme request-deferred deferred rjsx-mode js2-mode
+								shut-up slack emojify ht alert log4e gntp circe oauth2 request
+								smart-mode-line-powerline-theme smart-mode-line rich-minority
+								powerline smex sml-modeline solarized-theme soothe-theme
+								sourcerer-theme spacegray-theme spacemacs-theme spinner
+								subatomic-theme subatomic256-theme sublime-themes telephone-line
+								tide s twilight-anti-bright-theme twilight-bright-theme
+								typescript-mode ujelly-theme undo-tree w3m websocket xterm-color
+								yaml-mode yasnippet ycm zenburn-theme zerodark-theme flycheck seq
+								pkg-info epl magit magit-popup git-commit with-editor ghub
+								let-alist dash async all-the-icons memoize) "Default packages")
 ;; Installs Packages
 (require 'cl)
 (defun install-lester-pkg ()
@@ -132,6 +65,9 @@
           (package-install pkg))))
 
 ;; Require's
+
+(eval-after-load "org"
+  '(require 'ox-gfm nil t))
 
 ;; ECLIM
 (require 'eclim)
@@ -176,8 +112,13 @@
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
 
-(setq sml/theme 'respectful)
-(setq sml/no-confirm-load-theme t)
+;; case-sensitive auto comlpetion
+(setq company-dabbrev-downcase nil)
+
+;; (setq sml/no-confirm-load-theme t)
+;; (sml/setup)
+;; (setq sml/theme 'respectful)
+
 ;;(sml/setup)
 
 

@@ -101,30 +101,40 @@
 ;;------------------------------------------------------------------------
 ;; Java Mode Eclim
 
-(require 'eclim)
-(add-hook 'java-mode-hook 'eclim-mode)
+;; (require 'eclim)
+;; (add-hook 'java-mode-hook 'eclim-mode)
 
-(custom-set-variables
- '(eclim-eclipse-dirs '("~/java-neon/eclipse/"))
-   '(eclim-executable "~/java-neon/eclipse/eclim"))
-
-
-(require 'gradle-mode)
-(add-hook 'java-mode-hook '(lambda() (gradle-mode 1)))
-
-(define-key eclim-mode-map (kbd "C-c C-k") 'eclim-complete)
-(define-key eclim-mode-map (kbd "C-c C-c") 'eclim-problems-correct)
-
-(defun build-and-run ()
-  (interactive)
-  (gradle-run "build run"))
+;; (custom-set-variables
+;;  '(eclim-eclipse-dirs '("~/java-neon/eclipse/"))
+;;    '(eclim-executable "~/java-neon/eclipse/eclim"))
 
 
-(define-key gradle-mode-map (kbd "C-c C-r") 'build-and-run)
+;; (require 'gradle-mode)
+;; (add-hook 'java-mode-hook '(lambda() (gradle-mode 1)))
+
+;; (define-key eclim-mode-map (kbd "C-c C-k") 'eclim-complete)
+;; (define-key eclim-mode-map (kbd "C-c C-c") 'eclim-problems-correct)
+
+;; (defun build-and-run ()
+;;   (interactive)
+;;   (gradle-run "build run"))
+
+
+;; (define-key gradle-mode-map (kbd "C-c C-r") 'build-and-run)
+
+(require 'meghanada)
+(add-hook 'java-mode-hook
+          (lambda ()
+            ;; meghanada-mode on
+            (meghanada-mode t)
+            (setq c-basic-offset 2)
+            ;; use code format
+            (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
+
 ;;---------------------------------------------------------
 ;; C Mode
 (setq c-default-style "linux"
-      c-basic-offset 4)
+      c-basic-offset 2)
 
 ;;---------------------------------------------------------
 ;; Omni-Sharp
@@ -158,3 +168,7 @@
 ;; Javascript Lint
 (require 'flymake-jshint)
 (add-hook 'js-mode-hook 'flymake-jshint-load)
+
+;;---------------------------------------------------------
+;; Python Mode
+(elpy-enable)

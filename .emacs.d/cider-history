@@ -2,7 +2,7 @@
 ;; Automatically written history of CIDER REPL session
 ;; Edit at your own risk
 
-("(require 'figwheel-sidecar.repl-api)
+("quit" "(require 'figwheel-sidecar.repl-api)
              (figwheel-sidecar.repl-api/start-figwheel!) ; idempotent
              (figwheel-sidecar.repl-api/cljs-repl)" "(println \"hello\")" "  (js/alert \"hello\")" " (js/alert \"hello\")" "(js/alert \"hello\")" "(defonce app-state (atom {:text \"Hello world!\"}))" "(js/String.toUpperCase \"helo\")" "(js/toUpperCase \"hello\")
 " "(js/Math.round 34.4)" "(js/Math .round 34.4)" "(require 'figwheel-sidecar.repl-api)

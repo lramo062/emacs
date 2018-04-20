@@ -3,6 +3,13 @@
 
 ;;; Code:
 
+;; ansi term
+; edit text mode: C-c C-j
+; switch to terminal mode C-c C-k
+
+;; start an emacs server for faster launch
+(server-start)
+
 ;; Initialize Packages
 (setq package-enable-at-startup nil)
 (package-initialize)
@@ -16,7 +23,8 @@
   (find-file "~/.emacs"))
 
 ;; Line-Numbers
-(global-linum-mode 1)
+;;(global-linum-mode 1)
+(line-number-mode 1)
 
 ;; No Tool-Bar (GUI)
 (tool-bar-mode -1)
@@ -31,8 +39,16 @@
 ;; Color-Theme
 ;; run M-x fringe-mode to remove fringes from themes
 (if window-system
-    (load-theme 'dracula t)
-  (load-theme 'wombat t))
+    (load-theme 'zerodark t)
+  (load-theme 'sanityinc-tomorrow-eighties t))
+(zerodark-setup-modeline-format)
+
+;; remove the highlighted fringe in most themes
+(defun remove-colored-fringe ()
+  (interactive)
+  (set-face-attribute 'fringe nil :background nil))
+;; call function on start-up
+(remove-colored-fringe)
 
 ;; Smooth scrolling
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
@@ -44,8 +60,9 @@
 (show-paren-mode 1)
 
 ;; Tabs
-(setq-default indent-tabs-mode nil)
-(setq tab-width 4)
+(setq-default indent-tabs-mode t)
+(setq-default tab-width 2)
+(setq-default typescript-indent-level 2)
 
 ;; No-Backups
 (setq make-backup-files nil)
@@ -167,25 +184,3 @@
 (load-file "~/.emacs.d/nba-stats.el")
 
 ;;; END
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ansi-color-faces-vector
-   [default bold shadow italic underline bold bold-italic bold])
- '(eclim-eclipse-dirs (quote ("~/java-neon/eclipse/")))
- '(eclim-executable "~/java-neon/eclipse/eclim")
- '(fci-rule-color "#383838")
- '(hl-sexp-background-color "#1c1f26")
- '(package-selected-packages
-   (quote
-    (intero dante json-mode darcula-theme rjsx-mode graphql-mode slack meghanada zenburn-theme ycm yaml-mode xterm-color w3m undo-tree ujelly-theme twilight-bright-theme twilight-anti-bright-theme sublime-themes subatomic256-theme subatomic-theme spacemacs-theme sourcerer-theme soothe-theme solarized-theme sml-modeline smex smart-mode-line-powerline-theme rainbow-mode rainbow-delimiters purple-haze-theme projectile ox-gfm org-gcal omnisharp neotree mustang-theme monokai-theme moe-theme material-theme markdown-mode magit-filenotify leuven-theme js2-mode js-comint java-snippets imenu-anywhere hide-comnt helm-spotify helm-dash gruvbox-theme groovy-mode groovy-imports grandshell-theme gradle-mode goto-chg gotham-theme google-maps fsharp-mode fringe-helper flymake-json flymake-jshint flymake-cursor flatui-theme flatui-dark-theme exec-path-from-shell epc emacsql-psql elpy dracula-theme doom-themes darktooth-theme cyberpunk-theme cuda-mode creamsody-theme company-irony company-emacs-eclim color-theme-solarized color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized color-theme-modern clojure-mode-extra-font-locking cider calfw-gcal calfw base16-theme badwolf-theme badger-theme atom-one-dark-theme atom-dark-theme ample-theme ahungry-theme afternoon-theme ac-helm abyss-theme)))
- '(pos-tip-background-color "#36473A")
- '(pos-tip-foreground-color "#FFFFC8"))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )

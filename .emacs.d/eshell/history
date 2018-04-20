@@ -1,4 +1,3 @@
-ln -s ~/instantclient_11_2/{libsqlplus.dylib,libsqlplusic.dylib} ~/lib/export PATH=~/instantclient_11_2:$PATH
 cd Desktop/Work/
 ls
 cd pos2whse/
@@ -126,3 +125,4 @@ clear
 
 sftp lramo62@ocelot.aul.fiu.edu
 sftp lramo062@ocelot.aul.fiu.edu
+git checkout lester-feature

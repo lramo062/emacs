@@ -1,2 +1,4 @@
-* TODO Test 
-  DEADLINE: <2016-10-17 Mon>
+* TODO SFM Work Session 1:30-3:30pm
+  DEADLINE: <2017-06-08 Thu>
+* TODO Midnight Deployment
+  DEADLINE: <2017-06-15 Thu>
