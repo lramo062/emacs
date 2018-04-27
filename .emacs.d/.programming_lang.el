@@ -1,3 +1,18 @@
+;; ----------------------------------------------------------------------
+;; HASKELL
+(require 'haskell-mode)
+(require 'intero)
+(add-hook 'haskell-mode-hook 'intero-mode)
+(setq haskell-process-type 'stack-ghci)
+(require 'flycheck)
+(setq flycheck-check-syntax-automatically '(save new-line))
+(flycheck-add-next-checker 'intero '(warning . haskell-hlint))
+
+;;;;
+;; Ocaml
+;;;;
+(load "/Users/lesterr/.opam/system/share/emacs/site-lisp/tuareg-site-file")
+
 ;;;;
 ;; Clojure
 ;;;;
